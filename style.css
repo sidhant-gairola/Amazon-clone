@@ -36,7 +36,7 @@
 }
 
 .logo {
-    background-image: url("Amazon_logo.jpg");
+    background-image: url("Amazon_logo.webp");
     background-size: cover;
     height: 45px;
     width: 90%;
@@ -149,7 +149,7 @@ span {
 }
 
 .panel-sale {
-    background-image: url("panel_img.jpg");
+    background-image: url("panel_img.webp");
     height: 40px;
     width: 400px;
     cursor: pointer;
@@ -157,7 +157,7 @@ span {
 
 /* hero section */
 .hero-section {
-    background-image: url("Hero.jpg");
+    background-image: url("Hero.webp");
     height: 250px;
     background-size: cover;
     cursor: pointer;
