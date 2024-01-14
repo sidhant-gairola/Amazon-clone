@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border {
+    border: 1px transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.border2 {
+    border: 1px transparent white;
+}
+
+.border2:hover {
+    border: 1px solid white;
+}
+
+.nav-logo {
+    height: 45px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.logo {
+    background-image: url("Amazon_logo.jpg");
+    background-size: cover;
+    height: 45px;
+    width: 90%;
+}
+
+.nav-address {
+    width: 100px;
+    cursor: pointer;
+}
+
+.add_first {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.add_sec {
+    font-size: 1.25rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: lightgray;
+    width: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: rgb(233, 151, 20);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+span {
+    font: 0.5rem;
+    cursor: pointer;
+}
+
+.nav-sec {
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.panel {
+    color: white;
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    cursor: pointer;
+}
+
+.panel-op p {
+    margin: 10px;
+    display: inline;
+    cursor: pointer;
+}
+
+.panel-op {
+    width: 60%;
+    font-size: 0.85rem;
+}
+
+.panel-sale {
+    background-image: url("panel_img.jpg");
+    height: 40px;
+    width: 400px;
+    cursor: pointer;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url("Hero.jpg");
+    height: 250px;
+    background-size: cover;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Shop section */
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box img {
+    height: 300px;
+    cursor: pointer;
+    margin-top: 1 rem;
+    margin-bottom: 1 rem;
+}
+
+.box4 {
+    height: 300px;
+    width: 23%;
+    background-color: #fff;
+}
+
+.base_nav {
+    background-color: #212d3bd8;
+    text-align: center;
+    margin-top: 5px;
+    padding: 18px;
+    cursor: pointer;
+    font-size: small;
+    color: white;
+}
+
+.base_nav:hover {
+    background-color: #485769;
+}
+
+p {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.thirdLast {
+    display: flex;
+    background-color: #232F3E;
+    color: white;
+    font-size: 0.90rem;
+    padding: 38px 180px;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.secondLast{
+    background-color: #232F3E;
+    margin-top: 0px;
+    height: 150px;
+}
+.secondLast img{
+    width: 95px;
+    padding: 35px 600px;
+}
+.secondLast{
+    padding: 25px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.last{
+    color: white;
+    text-align: center;
+    background-color: #131A22;
+    padding: 22px;
+}
