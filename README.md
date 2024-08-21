@@ -1,1 +1,1 @@
-Amazon.com website clone using - HTML & CSS.
+This project is an Amazon website clone made using HTML and CSS. It primarily focuses on replicating the user interface of Amazon, including sections like product listings, banners, and navigation elements. The repository contains static files that visually imitate Amazon's layout without backend functionality. The project demonstrates front-end design skills but does not involve complex features like user authentication, payment processing, or database integration.
